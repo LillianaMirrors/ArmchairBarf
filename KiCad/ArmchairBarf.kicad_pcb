@@ -71,7 +71,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "../Gerber/")
     )
   )
 
@@ -758,6 +758,9 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 2f05d1f1-dad8-4ecb-9d5f-e249a361b054))
+  (gr_text "By Lilliana\n" (at 156.253793 105.048706 270) (layer "B.SilkS") (tstamp 8c263d3f-d1cf-4d38-a324-812e82f059c5)
+    (effects (font (size 0.8 0.8) (thickness 0.1) bold) (justify left bottom mirror))
+  )
 
   (segment (start 149.055 99.695) (end 149.86 98.89) (width 0.25) (layer "F.Cu") (net 1) (tstamp 009e5c5b-fc8e-463e-8556-cc710fc5b0b5))
   (segment (start 154.633897 99.778897) (end 153.745 98.89) (width 0.25) (layer "F.Cu") (net 1) (tstamp 5369f056-e79c-486b-a6aa-91049ec7ce92))
